@@ -5,7 +5,6 @@ build-backend = "hatchling.build"
 
 [project]
 name = "titato"
-version = "1.0.1"
 authors = [{ name="Steppe_Mammoth", email="qwqwqww404@gmail.com" }]
 
 description = "Library of the game tic-tac-toe + AI. Experimental functionality with dynamic parameters of the game field"
@@ -32,6 +31,11 @@ keywords = [
 ]
 
 dependencies = ["prettytable ~= 3.6.0"]
+
+dynamic = ["version"]
+
+[tool.hatch.version]
+path = "titato/__init__.py"
 
 
 [project.urls]
