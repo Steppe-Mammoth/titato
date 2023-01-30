@@ -756,7 +756,7 @@ ___
 
 
 <details>
- <summary>UA 🇺🇦</summary>
+ <summary>UA</summary>
 
 ___
 
