@@ -5,14 +5,13 @@ build-backend = "hatchling.build"
 
 [project]
 name = "titato"
-version = "1.0.0"
-authors = [
-  { name="Steppe-Mammoth", email="qwqwqww404@gmail.com" },
+version = "1.0.1"
+authors = [{ name="Steppe_Mammoth", email="qwqwqww404@gmail.com" }]
 
-
-]
 description = "Library of the game tic-tac-toe + AI. Experimental functionality with dynamic parameters of the game field"
-readme = "README.md"
+
+readme = {"file" = "./docs/pypi/README.md", "content-type" = "text/markdown"}
+
 requires-python = ">=3.10"
 classifiers = [
     "Development Status :: 5 - Production/Stable",
@@ -23,8 +22,8 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Topic :: Games/Entertainment",
-
 ]
+
 keywords = [
     "tic-tac-toe",
     "game",
@@ -36,27 +35,23 @@ dependencies = ["prettytable ~= 3.6.0"]
 
 
 [project.urls]
-Documentation = "https://github.com/Steppe-Mammoth/tictaco#readme"
-Source =  "https://github.com/Steppe-Mammoth/tictaco"
-Issues = "https://github.com/Steppe-Mammoth/tictaco/issues"
+Documentation = "https://github.com/Steppe-Mammoth/titato/tree/dev-1.x#titato"
+Source =  "https://github.com/Steppe-Mammoth/titato/tree/dev-1.x"
+Issues = "https://github.com/Steppe-Mammoth/titato/issues"
 
-[tool.hatch.envs.default]
-    dependencies = ["prettytable ~= 3.6.0"]
 
-[[tool.hatch.envs.test.matrix]]
-python = ["310", "311"]
-
-[tool.ruff]
-src = ["titato", "tests"]
+[tool.hatch.build]
+include = [ "titato", "tests",]
 exclude = [
     ".git",
     ".idea",
     "build",
     "dist",
     "venv",
-    "venv10",
     ".venv",
-    "tests",
     "dev",
     ".pytest_cahce",
 ]
+
+[tool.hatch.build.targets.wheel]
+packages = ["titato"]
