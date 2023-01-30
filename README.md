@@ -2,6 +2,11 @@
 
 ___Library of the game tic-tac-toe + AI.___ _Experimental functionality with dynamic parameters of the game field_
 
+
+Install the latest stable version of **titato**:
+```python
+pip install titato
+```
 ___
 
 ## Features:
