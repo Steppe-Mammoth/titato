@@ -1,9 +1,10 @@
 # titato
+
 ___Library of the game tic-tac-toe + AI.___ _Experimental functionality with dynamic parameters of the game field_
 
 ___
 
-## Main advantages:
+## Features:
 + **Unlimited number of players in one game**
 + **Creating a playing field of any size**:
 + + *With size parameters required: **row**, **column** and **winning combination***
@@ -38,17 +39,17 @@ ___
 
 ## ***Documentation***
 
-[*Start a quick game in the console*](https://github.com/Steppe-Mammoth/titato#start-a-quick-game-in-the-console-gameconsole)
+[*Start a quick game in the console*](https://github.com/Steppe-Mammoth/titato/blob/dev-1.x/README.md#start-a-quick-game-in-the-console-gameconsole)
 
-[**API:**](https://github.com/Steppe-Mammoth/titato#api) 
-* [Game](https://github.com/Steppe-Mammoth/titato#game) 
-* [Table](https://github.com/Steppe-Mammoth/titato#table) 
-* [Players](https://github.com/Steppe-Mammoth/titato#players) 
-* [Player](https://github.com/Steppe-Mammoth/titato#player) 
-* [Game State](https://github.com/Steppe-Mammoth/titato#game-state) 
-* [AI](https://github.com/Steppe-Mammoth/titato#ai) 
+[**API:**](https://github.com/Steppe-Mammoth/titato/blob/dev-1.x/README.md#api) 
+* [Game](https://github.com/Steppe-Mammoth/titato/blob/dev-1.x/README.md#game) 
+* [Table](https://github.com/Steppe-Mammoth/titato/blob/dev-1.x/README.md#table) 
+* [Players](https://github.com/Steppe-Mammoth/titato/blob/dev-1.x/README.md#players) 
+* [Player](https://github.com/Steppe-Mammoth/titato/blob/dev-1.x/README.md#player) 
+* [Game State](https://github.com/Steppe-Mammoth/titato/blob/dev-1.x/README.md#game-state) 
+* [AI](https://github.com/Steppe-Mammoth/titato/blob/dev-1.x/README.md#ai) 
 
-[*Translations into other languages:*](https://github.com/Steppe-Mammoth/titato#translations-into-other-languages)
+[*Translations into other languages:*](https://github.com/Steppe-Mammoth/titato/blob/dev-1.x/README.md#translations-into-other-languages)
 
 ___
 
